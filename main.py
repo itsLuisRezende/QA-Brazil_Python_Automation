@@ -1,5 +1,13 @@
-import data
+from data import *
+from helpers import *
 class TestUrbanRoutes:
+    @classmethod
+    def setup_class(cls):
+        if is_url_reachable(URBAN_ROUTES_URL):
+            print("Conectado ao servidor Urban Routes")
+        else:
+            print( "Não foi possível conectar ao Urban Routes")
+
     def test_set_route(self): #Adicionar em S8
         print("Função criada para definir rota.")
         pass
