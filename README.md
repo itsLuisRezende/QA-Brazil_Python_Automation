@@ -1,6 +1,9 @@
-# QA-Brazil Python Automation
+<img width="800" height="400" alt="Captura de tela 2025-08-28 182102" src="https://github.com/user-attachments/assets/3efdd70b-d426-4200-a3aa-9baf7ced9efd" />
+
+# QA_automation_UrbanRoutes
 
 ## 1. Objetivo do projeto
+
 Criar uma suíte de testes automatizados em Python, organizada de forma modular, seguindo boas práticas de nomenclatura e legibilidade. O projeto visa aplicar padrões de automação de testes, com foco em clareza de código e reutilização de componentes.
 
 ## 2. Resultado
