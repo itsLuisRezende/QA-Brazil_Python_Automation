@@ -10,7 +10,7 @@ Criar uma suíte de testes automatizados em Python, organizada de forma modular,
 O resultado foi um framework de testes com arquivos bem estruturados (`data.py`, `helpers.py`, `pages.py`, `main.py`, `test.py`) e convenções definidas (como `snake_case` para variáveis, testes prefixados com `test_`, etc.). Essa base sustenta a criação de testes claros, eficientes e fáceis de manter, com boa separação de responsabilidades.
 
 ## 3. Ferramentas utilizadas
-- **Python** – linguagem principal para implementação dos testes  
+- [![My Skills](https://skillicons.dev/icons?i=py)](https://skillicons.dev) – linguagem principal para implementação dos testes  
 - **Modularidade no código** – uso de arquivos como `helpers`, `pages` e `data` para organização logicamente separada  
 - **requirements.txt** – para controle de dependências do projeto
 
@@ -25,6 +25,37 @@ O resultado foi um framework de testes com arquivos bem estruturados (`data.py`,
 - Adicionar **ferramentas de automação de UI** (Selenium, Playwright) para testes de interface web  
 - Implementar **integração contínua (CI)** com GitHub Actions para execução automática em cada push  
 - Criar **relatórios estruturados** (por exemplo, com Allure) para visualizar o status dos testes
+
+## 6. Passo a passo para execução:
+- Clone o repositório
+- Crie e ative um ambiente virtual (recomendado)
+
+    Windows (PowerShell):
+      python -m venv .venv
+      .venv\Scripts\Activate.ps1
+  
+    macOS / Linux:
+      python3 -m venv .venv
+      source .venv/bin/activate
+
+- Atualizar pip e instalar dependências
+  
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    
+- Verificar/ajustar parâmetros do projeto
+  
+    Abra o arquivo data.py
+    Confira se variáveis como BASE_URL, credenciais de teste e endpoints estão corretos para o ambiente que será usado.
+
+- Executar o projeto
+- Rodar fluxo principal:
+
+    python main.py
+
+- Rodar os testes diretamente:
+
+    python test.py
 
 # Diretrizes de nomenclatura de código
 
