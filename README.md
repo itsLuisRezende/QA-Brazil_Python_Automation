@@ -10,7 +10,7 @@ Criar uma suíte de testes automatizados em Python, organizada de forma modular,
 O resultado foi um framework de testes com arquivos bem estruturados (`data.py`, `helpers.py`, `pages.py`, `main.py`, `test.py`) e convenções definidas (como `snake_case` para variáveis, testes prefixados com `test_`, etc.). Essa base sustenta a criação de testes claros, eficientes e fáceis de manter, com boa separação de responsabilidades.
 
 ## 3. Ferramentas utilizadas
-- [![My Skills](https://skillicons.dev/icons?i=py)](https://skillicons.dev) – linguagem principal para implementação dos testes  
+- **Python** – linguagem principal para implementação dos testes  
 - **Modularidade no código** – uso de arquivos como `helpers`, `pages` e `data` para organização logicamente separada  
 - **requirements.txt** – para controle de dependências do projeto
 
